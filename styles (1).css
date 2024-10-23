@@ -1,0 +1,124 @@
+
+
+.search-container {
+  text-align: right;
+  margin-top: 20px;
+  
+}
+
+.navbar {
+  background-color: #FE0100;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #FFF;
+}
+
+.logo {
+  width: 150px; /* Ajusta el ancho del logo */
+}
+.foto {
+  width: 150px; /* Ajusta el ancho del logo */
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+a {
+  display: inline-block;
+  min-width: 4rem;
+  padding: .3rem;
+  margin: 7px;
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  background-color: #d4d4d4;
+}
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.section {
+  /* No necesitamos especificar altura si el contenedor ya ocupa todo el alto */
+}
+
+.section-1 {
+  width: 15%;
+  background-color: white;
+  border-left: 3px solid #000;
+  border-top: 3px solid #000;
+  border-width: 3px solid #000;
+}
+
+.section-2, .section-3 {
+  width: 35%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  border-top: 3px solid #000;
+}
+
+.section-5, .section-6 {
+  width: 50%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  border-top: 3px solid #000;
+}
+
+
+.section-4 {
+  width: 15%;
+  background-color: red;
+}
+
+.section-7 {
+  width: 30%;
+  background-color: red;
+}
+
+.hijo {
+  z-index: 2
+  width: 100%;
+  height:35%;
+  margin-top: 2px; 
+  position: relative;
+  border: 2px solid #c20000;
+  margin: 10px; /* Margen de 10px en todos los lados */
+}
+
+.hijo2 {
+  z-index: 2
+  width: 100%;
+  height: 20%;
+  margin-top: 2px; 
+  position: relative;
+  border: 2px solid #c20000;
+  margin: 10px; /* Margen de 10px en todos los lados */
+}
